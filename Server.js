@@ -16,6 +16,9 @@ app.get('/about',function(req,res){
 app.get('/sitemap',function(req,res){
   res.sendFile(path.join(__dirname+'/sitemap.html'));
 });
+app.get('/aboutsudheesh',function(req,res){
+  res.sendFile(path.join(__dirname+'/aboutsudheesh.html'));
+});
 
 var lport = process.env.PORT || 3000;
 
