@@ -12,6 +12,9 @@ app.get('/',function(req,res){
 app.get('/about',function(req,res){
   res.sendFile(path.join(__dirname+'/about.html'));
 });
+app.get('/aboutjerry',function(req,res){
+  res.sendFile(path.join(__dirname+'/aboutjerry.html'));
+});
 
 app.get('/sitemap',function(req,res){
   res.sendFile(path.join(__dirname+'/sitemap.html'));
