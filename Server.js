@@ -9,6 +9,10 @@ app.get('/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+app.get('/aboutbinu',function(req,res){
+  res.sendFile(path.join(__dirname+'/aboutbinu.html'));
+});
+
 app.get('/about',function(req,res){
   res.sendFile(path.join(__dirname+'/about.html'));
 });
