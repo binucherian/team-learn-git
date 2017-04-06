@@ -1,0 +1,25 @@
+{
+  "name": "learngit",
+  "version": "1.0.0",
+  "description": "test git and heroku",
+  "main": "Server.js",
+  "dependencies": {
+    "express": "^4.11.0",
+    "mocha": "1.20.1",
+    "supertest": "1.1.0"
+  },
+  "scripts": {
+    "start":"node Server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerry-sunny/learngit.git"
+  },
+  "author": "jerry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerry-sunny/learngit/issues"
+  },
+  "homepage": "https://github.com/jerry-sunny/learngit#readme"
+}
